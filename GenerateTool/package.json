@@ -1,0 +1,66 @@
+{
+  "name": "GenerateTool",
+  "version": "1.7.3",
+  "description": "A Generate Code Tool",
+  "main": "main.js",
+  "scripts": {
+    "install": "node copy.js",
+    "start": "electron .",
+    "dist": "electron-builder --x64",
+    "postinstall": "install-app-deps"
+  },
+  "keywords": [
+    "Electron",
+    "code",
+    "node",
+    "extjs"
+  ],
+  "author": "Onion",
+  "email": "a2214839296a@gmail.com",
+  "license": "CC0-1.0",
+  "url": "http://116.63.181.221:8000",
+  "build": {
+    "appId": "onion.app.GenaretorTool",
+    "asar": true,
+    "mac": {
+      "icon": "static/images/code.png",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "icon": "static/images/code.png",
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "ansicolor": "^1.1.92",
+    "app-root-path": "^3.0.0",
+    "archiver": "^3.0.0",
+    "decompress": "^4.2.0",
+    "del": "^5.0.0",
+    "log4js": "^6.1.0",
+    "lowdb": "^1.0.0",
+    "marked": "^0.7.0",
+    "monaco-editor": "^0.18.1",
+    "node-pty": "^0.9.0",
+    "open": "^7.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "require-uncached": "^2.0.0",
+    "sequelize": "^5.21.3",
+    "shelljs": "^0.8.3",
+    "sqlite3": "^4.1.1",
+    "swig": "^1.4.2",
+    "xterm": "^4.2.0-vscode1",
+    "xterm-addon-fit": "^0.3.0"
+  }
+}
