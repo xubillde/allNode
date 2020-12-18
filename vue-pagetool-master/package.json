@@ -1,0 +1,19 @@
+{
+  "name": "vue-pagetool",
+  "version": "0.0.2",
+  "description": "使用脚本新建vue页面",
+  "main": "lib/index.js",
+  "author": "马鹏达",
+  "license": "MIT",
+  "scripts": {
+    "test": "rm -rf  src static && node test/test.js",
+    "rm": "rm -rf src static"
+  },
+  "dependencies": {
+    "ma-fs": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ma125120/vue-pagetool.git"
+  }
+}

@@ -1,0 +1,2 @@
+# generate_components
+使用node编写的生成模版组件的脚本

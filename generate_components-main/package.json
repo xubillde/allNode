@@ -1,0 +1,27 @@
+{
+  "name": "generate_components",
+  "version": "1.0.0",
+  "description": "使用node编写的生成模版组件的脚本",
+  "main": "generate.js",
+  "bin": {
+    "comp": "./bin/index.js"
+  },
+  "scripts": {
+    "create": "node ./create.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherrybiu/generate_components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherrybiu/generate_components/issues"
+  },
+  "homepage": "https://github.com/cherrybiu/generate_components#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "chalk": "^4.1.0"
+  }
+}

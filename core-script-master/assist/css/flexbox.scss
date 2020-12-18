@@ -1,0 +1,40 @@
+.container{
+
+// https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+// bug: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#browser-support
+
+// inline-flex
+display: flex;
+
+// flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+
+// row(水平向右-默认) | row-reverse | column（竖直向下） | column-reverse;
+flex-direction: row;
+
+// nowrap(盒子成员不换行-默认) | wrap（向下换行） | wrap-reverse;
+flex-wrap: nowrap;
+
+// https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-6
+// justify-content: flex-start（沿着开始线排布-默认） | flex-end | center 
+// space-between(第一个在开始线，最后一个在结束线)
+// space-around（每个成员都有相同的左右间距（视觉间距不同，第一个成员距离左边一个间距，第二个距离第一个两个）
+// space-evenly（间距平均分布）;
+
+justify-content: center;
+
+// 在交叉轴上的排列
+// align-items: flex-start | flex-end | center | baseline | stretch（高度全部拉伸铺满-默认）;
+
+align-items: center;
+
+// 排了多行以后成员的排列，主要是行高的差异
+// align-content: flex-start | flex-end | center | space-between | space-around | stretch（拉伸铺满-默认）;
+
+align-content: center;
+
+}
+
+.item{
+  // order 一般不关心
+  // align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}

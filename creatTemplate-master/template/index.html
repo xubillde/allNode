@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <%
+    data.actConf = {
+        "titleInfo": [{
+            "title": "国庆大狂欢，VIP双倍月票",
+            "desc": "国庆活动",
+            "keywords": "二次元"
+        }]
+    };
+    data.showShare = true
+    const {platform, business: {shareCode}} = data
+    const {platforms: platformConfig} = YUE.acConfig
+    const isInApp = platform === platformConfig.iosApp || platform === platformConfig.androidApp
+    data.isInApp = isInApp
+  %>
+  <% include ../../common/header.html %>
+  <link rel="stylesheet" data-ignore="true" href="<%=YUE.staticConf.staticPath %>/2018/62433353/css/index.css" />
+</head>
+<body>
+   
+</body>
+<% include ../../common/footer.html %>
+<script type="text/javascript" src="https://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0"></script>
+<script>
+    // 初始化vConsole
+    window.vConsole = new window.VConsole();
+</script>
+<script>
+    var pageData = <%- JSON.stringify(data) -%>;
+    var YUE = <%- JSON.stringify(YUE) -%>;
+    
+    LBF.config({
+    "paths" : {
+        alias: {/* __lbf_config_alias__ */},
+        //deps: {/* __lbf_config_deps__ */},
+        "ecy_activity" : "<%= YUE.staticConf.staticPath %>",
+        }
+    });
+
+  LBF.use(['ecy_activity/2018/62433353/js/index.js']);
+</script>
+</html>

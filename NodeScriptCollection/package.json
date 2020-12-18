@@ -1,0 +1,14 @@
+{
+    "name": "test_weibo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node ./weibolist/weibo.js"
+    },
+    "dependencies": {
+        "@types/string-format": "^2.0.0",
+        "request": "^2.88.2",
+        "string-format": "^2.0.0"
+    }
+}

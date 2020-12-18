@@ -1,0 +1,70 @@
+{
+  "ok": 1,
+  "data": {
+    "uid": 5852840600,
+    "total": 281,
+    "users": [
+      {
+        "user": {
+          "id": 5033210112,
+          "idstr": "5033210112",
+          "screen_name": "神经病人的游戏",
+          "description": "教练我要做游戏。(*ﾟдﾟ*)",
+          "gender": "m",
+          "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.258.258.50/005uCPSgly8fhv2af75b7j307o0760sw.jpg?KID=imgbed,tva&Expires=1597318911&ssig=dxmLzQ3xQF",
+          "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.258.258.180/005uCPSgly8fhv2af75b7j307o0760sw.jpg?KID=imgbed,tva&Expires=1597318911&ssig=3gke%2Fnj7eD",
+          "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.258.258.1024/005uCPSgly8fhv2af75b7j307o0760sw.jpg?KID=imgbed,tva&Expires=1597318911&ssig=n%2BakeXmUDU",
+          "verified": true,
+          "verified_type": 0,
+          "verified_level": 3,
+          "verified_type_ext": 0,
+          "verified_reason": "搞笑幽默博主",
+          "followers_count": 367674,
+          "friends_count": 9,
+          "following": false,
+          "follow_me": false,
+          "itemid": "2317331002_1_84.1585815484757_-1_5033210112_8aa7e71d"
+        },
+        "schema_code": {
+          "ext": "growth:1|terminal:|reason:84.1|uid:5033210112|buid:-1|follow:5033210112|act:skip|act_valu:scheme|skiptype:profile|again:",
+          "featurecode": "10000326"
+        },
+        "rank": 281,
+        "status_id": 0,
+        "url": "",
+        "desc1": "搞笑幽默博主",
+        "desc2": "",
+        "flag": 1,
+        "stype": 0,
+        "itemid": "2317331002_1_84.1585815484757_-1_5033210112_8aa7e71d",
+        "score": {
+          "阅读数": "0.00",
+          "互动数": "0.00",
+          "总分": "0.00"
+        },
+        "action_log": {
+          "card_action": {
+            "act_code": "1338",
+            "cardid": "2317331002_1_84.1585815484757_-1_5033210112_8aa7e71d",
+            "oid": "5033210112",
+            "featurecode": "10000326",
+            "mark": "",
+            "ext": "growth:1|terminal:|reason:|uid:5852840600|buid:-1|follow:5033210112|act:skip|act_valu:scheme|skiptype:profile|again:",
+            "act_type": 1,
+            "source": "friends_follows"
+          },
+          "follow_action": {
+            "act_code": "1338",
+            "cardid": "2317331002_1_84.1585815484757_-1_5033210112_8aa7e71d",
+            "oid": "5033210112",
+            "featurecode": "10000326",
+            "mark": "",
+            "ext": "growth:1|terminal:|reason:|uid:5852840600|buid:-1|follow:5033210112|act:follow|act_valu:follow|skiptype:|again:",
+            "act_type": 1,
+            "source": "friends_follows"
+          }
+        }
+      }
+    ]
+  }
+}
